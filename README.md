@@ -1,5 +1,9 @@
 # LinkedIn-Deep UserScript
 
+
+<img src="https://github.com/gv3Dev/LinkedIn-Deep/blob/main/example.png?raw=true"/>
+
+
 ## Overview
 
 This script is designed to retrieve additional information about a LinkedIn user, such as their address, phone number, and relatives, from an external source. The retrieved information is displayed behind the user's profile picture banner on LinkedIn.
