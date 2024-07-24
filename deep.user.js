@@ -27,7 +27,7 @@
         const userName = profileButton.children[0].title.split(", #")[0];
         if (userName) {
             const formattedUserName = userName.toLowerCase().split(" ").join("-");
-            const searchUrl = `https://www.searchpeoplefree.com/find/${formattedUserName}/ny`;
+            const searchUrl = `https://www.searchpeoplefree.com/find/${formattedUserName}`;
             GM_setValue("info_returned", null);
             initiateDataRetrieval(searchUrl);
             GM_addValueChangeListener("info_returned", (name, old_value, new_value, remote) => {
